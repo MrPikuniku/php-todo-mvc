@@ -333,7 +333,9 @@ Bon, à présent, il est temps de vous expliquer les namespace PHP (vous allez d
 
 ![](https://media.tenor.com/JvlN6YyuH28AAAAd/wizard-harry-potter.gif)
 
+12. **Installez la librairie Assert** (https://github.com/webmozarts/assert) en suivant les instructions du README sur GitHub et **servez-vous en pour valider les données d'une nouvelle tâche**.
 
+> Avec composer, du moment que vous faites appel au fichier `/vendor/autoload.php`, votre librairie sera chargée si vous en avez besoin. Il vous faudra juste faire appel à ses classes ou fonctions en utilisant le chemin complet (avec namespace), ou en utilisant des `use`. 
 
 ## Notions Utiles
 
@@ -354,4 +356,4 @@ Bon, à présent, il est temps de vous expliquer les namespace PHP (vous allez d
   - `strval()`
   - `intval()`
   - `floatval()`
-  -  `boolval()`
+  - `boolval()`
