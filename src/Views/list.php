@@ -18,7 +18,7 @@ echo get_header( [ 'title' => 'Accueil' ] );
         </h1>
         
         <a class="p-4 rounded bg-teal-400 hover:bg-teal-500 duration-300 transition-colors flex items-center font-medium text-sm uppercase text-white tracking-widest justify-center" href="/task">
-          Créer <i class="iconoir-add-circled-outline block ml-2 text-xl"></i>
+          Créer <i class="iconoir-plus-circle block ml-2 text-xl"></i>
         </a>
       </header>
       <!-- /Header + Search Form -->
@@ -68,7 +68,7 @@ echo get_header( [ 'title' => 'Accueil' ] );
         <div class="flex flex-row justify-space-between items-center">
           <!-- Submit -->
           <button type="submit" class="p-4 rounded bg-teal-400 hover:bg-teal-500 duration-300 transition-colors flex items-center font-medium text-sm uppercase text-white tracking-widest justify-center">
-            Enregistrer <i class="iconoir-save-floppy-disk block ml-2 text-xl"></i>
+            Enregistrer <i class="iconoir-check block ml-2 text-xl"></i>
           </button>
           
           <!-- Pagination -->
